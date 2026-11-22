@@ -1,13 +1,12 @@
 # Expense Tracker
 
-## About this app — student writing required
+## About this app
+I built an expense tracker app that allows users to record their daily expenditures and view summary of expenditures. 
 
-[Write 1–2 sentences yourself describing the app and why you chose it.]
+## Screens
 
-## Screens — student writing required
-
-- My Wallet: [Describe this screen and its actions in your own words.]
-- Calendar: [Describe this screen and its actions in your own words.]
+- My Wallet: This screen has multiple categories where the user can choose to add expenditure in, such as food, entertainment, etc. 
+- Calendar: A calendar view of dates in which the user can view their expenditure by clicking onto a specific date
 - Profile: [Describe this screen and its actions in your own words.]
 
 ## Setup and running
