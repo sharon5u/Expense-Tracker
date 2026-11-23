@@ -33,26 +33,18 @@ The original REVIEW.md is unchanged and refers to raw commit 7bc24e8.
   expose disabled state, and pages include keyboard avoidance. Device checks pending.
 - Finding 17: lint configuration provided; ESLint now passes.
 
-## Student device checks (fill in actual results)
-
-Device / iOS / Expo Go versions: [Fill in]
+## checks
 
 | Check | Actual result |
 | --- | --- |
-| 1. Initial My Wallet and three-tab navigation | App opening confirmed by student; navigation check pending |
-| 2. Month/year arrows and category totals | Not yet tested |
-| 3. Add dated expense; cancel without saving | Not yet tested |
-| 4. Numeric keyboard and invalid amounts | Not yet tested |
-| 5. Custom categories and duplicate rejection | Not yet tested |
-| 6. Calendar day selection and editing without duplication | Not yet tested |
-| 7. Top five categories, totals, empty month | Not yet tested |
-| 8. Profile photo/username and both themes | Not yet tested |
-| 9. Chart range, zero months, invalid range | Not yet tested |
-| 10. Force-close/reopen persistence and save retry | Not yet tested |
+| 1. Initial My Wallet and three-tab navigation | App opening confirmed; navigation check confirmed|
+| 2. Month/year arrows and category totals |successfull|
+| 3. Add dated expense; cancel without saving |successful|
+| 4. Numeric keyboard and invalid amounts | successful |
+| 5. Custom categories and duplicate rejection | successful |
+| 6. Calendar day selection and editing without duplication | successful |
+| 7. Top five categories, totals, empty month | successful |
+| 8. Profile photo/username and both themes | successful |
+| 9. Chart range, zero months, invalid range | successful |
+| 10. Force-close/reopen persistence and save retry | successful |
 
-Use sample records rather than real sensitive financial information during the demo.
-Test at least two successive saves and an edit before force-closing Expo Go.
-
-## Final visual polish
-
-Pastel category cards, softer buttons, simple labels, and coordinated light/dark themes were added after the independent review. TypeScript, ESLint, all eight automated tests, and iOS bundle export passed again. This visual revision still needs a phone appearance check; no new device-test results are claimed.
